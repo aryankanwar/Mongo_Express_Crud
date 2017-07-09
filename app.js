@@ -4,7 +4,7 @@ var mongo       = require('mongodb');
 var bodyParser  = require('body-parser');
 var config      = require('config');
 var dbConfig    = config.get('Customer.dbConfig');
-var mongo_crud  = require('./mongo_crud');
+var mongo_crud  = require('./routes/mongo_crud');
 
 // parse application/json 
 app.use(bodyParser.json()); 
