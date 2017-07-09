@@ -1,0 +1,18 @@
+{
+  "name": "node_mongo",
+  "version": "1.0.0",
+  "description": "crud operations with mongo and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aryan kanwar",
+  "license": "ISC",
+    "dependencies": {
+    "body-parser": "^1.17.2",
+    "config": "^1.26.1",
+    "express": "^4.15.3",
+    "mongodb": "^3.2.11
+"
+  }
+}
