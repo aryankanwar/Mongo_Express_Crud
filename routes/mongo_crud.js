@@ -42,7 +42,6 @@ exports.delete = function(req, res){
 	
 exports.update = function(req, res){
 	var userToUpdate = req.params.name;
-	console.log(userToUpdate +"+++");
 	db.collection(dbConfig.COLLECTION_NAME).update({ name: userToUpdate}, req.body, function (error) {
 		if (error) {
 			return response.sendDataUpdationErrorResposne(res);
