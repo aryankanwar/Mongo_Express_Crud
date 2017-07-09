@@ -1,0 +1,10 @@
+{
+  // Customer module configs 
+  "Customer": {
+    "dbConfig": {
+      "DATABSE_NAME": "myTest1",
+      "PORT": 27017,
+      "COLLECTION_NAME": "customers"
+    }
+  }
+}
